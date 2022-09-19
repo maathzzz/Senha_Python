@@ -10,7 +10,7 @@ num = string.digits
 simb = "!@#$%&*/\?" # opcional - verificar possibilidade do uso de alguns desses símbolos
 
 aleatoriedade = crct + num + simb # elementos 
-tamanho_senha = 8 # tamanho da senha
+tamanho_senha = 10 # tamanho da senha
 
 senha = "".join(random.sample(aleatoriedade, tamanho_senha))
 
